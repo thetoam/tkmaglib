@@ -2,7 +2,7 @@ CC=g++
 CFLAGS=-c -Wall -fPIC
 LDFLAGS=
 
-SOURCES=dst.cc
+SOURCES=dst.cc isquietday.cc
 LIBNAME=tkmaglib
 MAJOR=1
 MINOR=0

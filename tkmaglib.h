@@ -25,3 +25,12 @@ int getDst(::std::string strday, ::std::vector<double> &aDst);
 * @param strday String value of the day in question
 */
 bool isQuietDay(::std::string strday);
+
+/**
+* Determine if a day is geomagnetically quiet
+*
+* Determine is a day is geomagnetically quiet based on arbitrary threshold
+*
+* @param strday String value of the day in question
+*/
+bool isQuietDay(::std::string strday, double threshold);

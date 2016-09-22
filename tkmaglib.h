@@ -17,3 +17,11 @@
 * @param aDst Vector<double> for storing Dst values (passed as reference)
 */
 int getDst(::std::string strday, ::std::vector<double> &aDst);
+
+
+/**
+* Determine if a day is geomagnetically quiet
+*
+* @param strday String value of the day in question
+*/
+bool isQuietDay(::std::string strday);

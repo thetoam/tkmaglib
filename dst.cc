@@ -1,6 +1,5 @@
 #include <cstdlib>
 #include <fstream>
-#include <iostream>
 #include <stdexcept>
 #include <string>
 #include <vector>
@@ -8,7 +7,6 @@
 #include "tkmaglib.h"
 
 ::std::string getSciencePath();
-
 
 int getDst(::std::string strday, ::std::vector<double> &aDst)
 {

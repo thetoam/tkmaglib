@@ -13,7 +13,6 @@
 int getDst(::std::string strday, ::std::vector<double> &aDst)
 {
   ::std::string path = getSciencePath() + "/dst/" + strday.substr(0, 4) + "/" + strday + ".dst";
-  ::std::cerr << path << ::std::endl;
   ::std::ifstream infile (path.c_str(), ::std::ifstream::in);
   ::std::string line;
 
